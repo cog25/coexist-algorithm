@@ -69,7 +69,7 @@ h1 {
 }
 ```
 
-> **Warning**  
+> **Warning** (미완성)  
 > 실습 코드: [📁bmi](./bmi)  
 > 실습 결과: [🚀보기](https://cog25.github.io/coexist-algorithm/bmi/)
 

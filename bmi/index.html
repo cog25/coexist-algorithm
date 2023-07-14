@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator by 10501 강태웅</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>BMI Calculator</h1>
+
+        <section>
+            <label for="age">나이</label>
+            <input type="number" id="age" autocomplete="off" required>
+        </section>
+
+        <section>
+            <fieldset>
+                <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                <label for="contactChoice2">남성</label>
+          
+                <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                <label for="contactChoice3">여성</label>
+            </fieldset>
+        </section>
+
+        <section>
+            <label for="height">키</label>
+            <input type="number" id="height" autocomplete="off" required>
+
+            <label for="weight">몸무게</label>
+            <input type="number" id="weight" autocomplete="off" required>
+        </section>
+
+        <section>
+            <button id="calculate">BMI 측정하기</button>
+        </section>
+
+        <section>
+            <p>당신의 BMI 지수는</p>
+            <span id="result">00.00</span>
+        </section>
+    </main>
+</body>
+
+</html>

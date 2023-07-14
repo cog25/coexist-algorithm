@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header scope</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <button data-animation-scroll="true" data-target="#main">노인을 포함해, 모두가 이용 가능한 키오스크</button>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#subject">주제선정이유</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#case_in_relation">문제상황사례</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#portfolio">나와의연계성찾기</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#method">해결방법</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <h4>SUBJECT : 노인을 포함해, 모두가 이용 가능한 키오스크</h4>
+            <h2>발표자 <span></span></h2>
+            <p>
+                고령화사회는 65세 이상의 인구가 전체 인구의 7% 이상인 경우를 말한다. 우리 나라는 고령화 사회를 진입한 나라로서 노인에 대한 경제-취미 활동이 많이 증가하고 있는데 이러한 경제-취미
+                활동을 누리기 위해 필요한 여러 교육이 필요하다. 그 중 가장 대중적이면서 여러 가게에 필수적인 요소로 자리잡은 키오스크에 대해 이야기 해보려고 한다.
+
+            </p>
+            <button class="download"> DOWNLOAD CV</button>
+            <button class="mouse"><i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+    </main>
+    <section id="subject" class="subject">
+        <div class="container">
+            <div class="title">
+                <h4> Choice of Subject</h4>
+                <h2> 키오스크 이용 </h2>
+            </div>
+            <div class="subject-intro">
+                <div class="left">
+                    <img src="images/sdg.jpeg" alt="SDGs">
+                </div>
+                <div class="right">
+                    <h3>누구나, 모두가 이용할 수 있는 <strong>키오스크</strong></h3>
+                    <p>
+                        여러 사회적 문제와 맞물려 키오스크가 굉장이 빠르게 확산되었습니다.
+                        그러나 그 이면에는 노인과 같은 일부 사람들은 키오스크가 두렵고 무서운 존제가 되었습니다.
+                        이러한 문제를 해결하고자, 위와 같은 주제를 선정해 탐구해 보았습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="case_in_relation" class="do">
+        <div class="container">
+            <div class="title">
+                <h4> Case in Relation</h4>
+                <h2> 문제상황사례</h2>
+            </div>
+            <div class="case">
+                <div class="case-inner">
+                    <div class="icon">
+                        <i class=""></i>
+                    </div>
+                    <div class="content">
+                        <h3>속도</h3>
+                        <img src="./images/눈치.png" alt="">
+                        <p>
+                            노인분들은 인식하는 속도가 상대적으로 느려, 뒷사람에 눈치가 보인다
+                        </p>
+                    </div>
+                </div>
+                <div class="case-inner">
+                    <div class="icon">
+                        <i class=""></i>
+                    </div>
+                    <div class="content">
+                        <h3>불편한 사용자 경험</h3>
+                        <img src="./images/심기불편.png" alt="">
+                        <p>키오스크가 주 내용에 강조를 주지 않고 추가 소비 버튼에 강조를 주는 등, 소비자를 속이도록 설계되어 있다.
+                        </p>
+                    </div>
+                </div>
+                <div class="case-inner">
+                    <div class="icon">
+                        <i class=""></i>
+                    </div>
+                    <div class="content">
+                        <h3>결제 수단</h3>
+                        <img src="./images/돈.png" alt="">
+                        <p>노인분들이 잘 주로 이용하시는 현금 등의 수단을 키오스크에서는 이용할 수 없다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="title">
+                <h4>Solution</h4>
+                <h2>해결 방법</h2>
+            </div>
+            <div class="portfolio-list">
+                <div class="portfolio-inner">
+                    <img src="images/simple.png" alt="해양오염">
+                    <strong>단순화</strong>
+                    <h3>전체 결제 과정을 단순화해, 이용 편의성을 향상시킨다.
+                    </h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="images/kiosk.jpg" alt="해양오염">
+                    <strong>결제 수단</strong>
+                    <h3> 키오스크에 현금투입구를 같이 만들어 둔다
+                    </h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="images/magnifier.avif" alt="대기오염">
+                    <strong> 대기오염1</strong>
+                    <h3>노인분들의 편의성을 위해, 큰 글자 모드를 추가한다
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="method" class="method">
+        <div class="container">
+            <div class="title">
+                <h4> AD </h4>
+                <h2> 홍보</h2>
+            </div>
+            <div class="subject-intro">
+                <!-- <div class="left"> -->
+                <video src="images/campaign.mp4" controls></video>
+                <!-- </div>
+                <div class="right">
+                    <h3>모두가 이용할 수 있는 <strong>키오스크</strong></h3>
+                    <p>만약, 앞서 언급한 문제가 해결된다면 어떤 모습이 나타날까요? 그 상황을
+                        모의해서 만들어 본, 짧은 동영상입니다.
+                    </p> -->
+
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

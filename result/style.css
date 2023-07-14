@@ -1,0 +1,321 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Pretendard Variable";
+}
+
+body {
+    word-break: keep-all;
+}
+
+a, a:link, a:visited{
+    color:inherit;
+    text-decoration:none;
+}
+
+li{
+    list-style:none;
+}
+
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+
+header{
+    position:fixed;
+    color:white;
+    top:0;
+    z-index:1;
+    width:100%;
+    padding:1rem;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+
+header nav ul{
+    display:flex;
+}
+
+header nav ul li{
+    padding:10px;
+}
+
+header button{
+    background:transparent;
+    border:0;
+    cursor:pointer;
+}
+
+header h1 button{
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+}
+
+header nav ul li button{
+    font-size: 1.2rem;
+    color:white;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    color:white;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) center center;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+main h4{
+    font-size:1.5rem;
+    font-weight: 500;
+}
+
+main h2{
+    font-size:4rem;
+    margin:2rem 0;
+    letter-spacing:3px;
+    font-family: "Pretendard Variable";
+    font-weight: 800;
+}
+
+main p{
+    max-width: 900px;
+    margin:0 auto;
+    font-size: 1.25rem;
+}
+
+main button.download{
+    background-color: transparent;
+    border:3px solid white;
+    border-radius:20px;
+    padding:1rem 2rem;
+    margin-top:3rem;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+main button.mouse{
+    background-color: transparent;
+    border:none;
+    color:white;
+    font-size:2rem;
+    position:absolute;
+    bottom:1rem;
+    left:50%;
+    transform:translateX(-50%);
+    animation:upDown 1s ease-in-out infinite;
+    cursor:pointer;
+}
+
+@keyframes upDown{
+    0%{
+        bottom:1rem;
+    }
+    50%{
+        bottom:1.5rem;
+    }
+    100%{
+        bottom:1rem;
+    }
+}
+
+main h2 span::after{
+    content:"";
+    height:40px;
+    width:3px;
+    background-color:#fff;
+    display:inline-block;
+    animation:blink .7s ease-in-out infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+section{
+    font-family: "Pretendard Variable", sans-serif;
+    padding:5rem 0;
+}
+
+section:nth-child(2n){
+    background-color: #f8f8f8;
+}
+
+section .title{
+    margin-bottom:3rem;
+}
+
+section .title h4{
+    font-size:1.35rem;
+    color:#ed4848;
+    position:relative;
+}
+
+section .title h2{
+    font-size:3.5rem;
+}
+
+section .title p{
+    font-size:1.15rem;
+}
+section .subject-intro::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+section .subject-intro .left{
+    width:50%;
+    float:left;
+}
+
+section .subject-intro .left img{
+    max-width:100%;
+}
+section .subject-intro .left video{
+    max-width:100%;
+}
+
+section .subject-intro .right{
+    width:50%;
+    float:left;
+    padding:0 2rem;
+}
+
+section .subject-intro .right h3{
+    font-size:2.25rem;
+    margin-bottom:1rem;
+}
+
+section .subject-intro .right h3 strong{
+    color:#ed4848
+}
+
+section .subject-intro .right p{
+    font-size:1.15rem;
+    margin:1rem 0;
+}
+
+section .subject-intro .right .social a{
+    font-size:2.5rem;
+    margin-right:0.2rem;
+}
+
+section .case::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+  
+section .case .case-inner{
+    background-color: #fff;
+    width: 30%;
+    padding:2rem;
+    float: left;
+    margin-right: 5%;
+    cursor:pointer;
+}
+
+section .case .case-inner:last-child{
+    margin-right: 0%;
+}
+
+section .case .case-inner .icon i{
+    font-size:2.5rem;
+    color:#ff6a6a;
+}
+
+section .case .case-inner .content h3{
+    font-size:2rem;
+    margin:1rem 0;
+}
+
+section .case .case-inner .content p{
+    font-size:1.15rem;
+}
+
+section .case .case-inner:hover{
+    background-color:lightcoral;
+    color:white;
+}
+
+section .case .case-inner:hover i{
+    color:white;
+}
+
+.bg{
+    background:url('images/bg.jpeg') center center;
+    background-size:cover;
+    background-attachment:fixed;
+    height:650px;
+}
+
+section .portfolio-list::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+section .portfolio-list .portfolio-inner {
+    width:30%;
+    margin-right:5%;
+    padding:1rem 1rem 1.5rem 1rem;
+    float:left;
+    background-color: #f8f8f8;
+    border:1px solid #ccc;
+    margin-bottom:3rem;
+}
+
+section .portfolio-list .portfolio-inner:nth-child(3n){
+    margin-right:0;
+}
+
+section .portfolio-list .portfolio-inner img{
+    width:300px;
+    height:300px;
+    display:block;
+}
+
+section .portfolio-list .portfolio-inner strong{
+    color:#ff6a6a;
+    margin:0.5rem 0;
+    display:block;
+}
+
+section .portfolio-list .portfolio-inner h3{
+    font-size:1.75rem;
+}
+
+header.active{
+    background-color: rgba(0,0,0);
+    animation:fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+

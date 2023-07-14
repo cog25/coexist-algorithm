@@ -46,7 +46,7 @@
 <video src="비디오_경로" controls></video>
 ```
 
-> **Note** 실습 코드: [/basic](./basic)
+> **Note** 실습 코드: [📁basic](./basic)
 
 ## CSS
 - CSS(Cascading Style Sheets)
@@ -67,8 +67,8 @@ h1 {
 }
 ```
 
-> **Warning** 실습 코드(미완성): [/bmi](./bmi)
+> **Warning** 실습 코드(미완성): [📁bmi](./bmi)
 
 ## 최종 실습
-- [/sample](./sample)
-- [/result](./result)
+- [📁sample](./sample)
+- [📁result](./result)

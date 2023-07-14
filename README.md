@@ -46,7 +46,9 @@
 <video src="비디오_경로" controls></video>
 ```
 
-> **Note** 실습 코드: [📁basic](./basic)
+> **Note**    
+> 실습 코드: [📁basic](./basic)  
+> 실습 결과: [🚀보기](https://cog25.github.io/coexist-algorithm/basic/)
 
 ## CSS
 - CSS(Cascading Style Sheets)
@@ -67,7 +69,9 @@ h1 {
 }
 ```
 
-> **Warning** 실습 코드(미완성): [📁bmi](./bmi)
+> **Warning**
+> 실습 코드: [📁bmi](./bmi)  
+> 실습 결과: [🚀보기](https://cog25.github.io/coexist-algorithm/bmi/)
 
 ## 최종 실습
 - [📁sample](./sample)

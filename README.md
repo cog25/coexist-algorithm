@@ -54,8 +54,8 @@
 - CSS는 크게 선택자와 선언부로 구분.
 
 ```css
-h1 { // h1:선택자
-    color: red; // color: 속성, red: 값 
+h1 { /* h1:선택자 */
+    color: red; /* color: 속성, red: 값 */
 }
 ```
 

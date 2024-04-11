@@ -1,5 +1,5 @@
 # coexist-algorithm
-구리고등학교 2023년 1학년 1학기 자율교육과정 - **공존지수 향상을 위한 알고리즘** 
+**고등학교 2023년 1학년 1학기 자율교육과정 - **공존지수 향상을 위한 알고리즘** 
 > 실습일: 2023. 7. 14.
 
 ---
@@ -48,7 +48,7 @@
 
 > **Note**    
 > 실습 코드: [📁basic](./basic)  
-> 실습 결과: [🚀보기](https://cog25.github.io/coexist-algorithm/basic/)
+> 실습 결과: [🚀보기](https://cogarchive.github.io/coexist-algorithm/basic/)
 
 ## CSS
 - CSS(Cascading Style Sheets)
@@ -71,9 +71,9 @@ h1 {
 
 > **Warning** (미완성)  
 > 실습 코드: [📁bmi](./bmi)  
-> 실습 결과: [🚀보기](https://cog25.github.io/coexist-algorithm/bmi/)
+> 실습 결과: [🚀보기](https://cogarchive.github.io/coexist-algorithm/bmi/)
 
 ## 최종 실습
 - [📁sample](./sample)
 - [📁result](./result) 
-- [🚀result](https://cog25.github.io/coexist-algorithm/result/)
+- [🚀result](https://cogarchive.github.io/coexist-algorithm/result/)
